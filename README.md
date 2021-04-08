@@ -72,7 +72,7 @@ que un metodo de devolver un nombre no devuelva nada.
 
     }
   <p align ="center">
- <image src="Pics/Pet.jpg"></image>
+ <image src="Pics/pet.jpg"></image>
  </p>
   
     <p align ="center">
