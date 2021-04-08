@@ -75,6 +75,8 @@ que un metodo de devolver un nombre no devuelva nada.
  <image src="Pics/pet.jpg"></image>
  </p>
   
+  En este caso, he puesto el método eat en Animal, para que las demas clases lo hereden y no haya que implementarlos, por ello en las clases hijas he eliminado walk y eat, pues
+  estos métodos viene heredados de la clase padre.
   <p align ="center">
  <image src="Pics/Animal.png"></image>
  </p>
