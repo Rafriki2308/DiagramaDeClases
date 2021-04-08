@@ -71,3 +71,52 @@
     <p align ="center">
  <image src="Pics/Animal.png"></image>
  </p>
+
+Animal <|-- Spider : extends
+    Animal <|-- Cat : extends
+    Animal <|-- Fish : extends
+    Pet <|..Cat : implements
+    Pet <|..Fish : implements
+    
+
+    class Animal{
+    <<Abstract>>
+    #legs : int
+
+    #Animal()
+    #Animal(legs : int)
+    #eat() void 
+    #walk()  void
+    #eat() void 
+    }
+
+    class Pet{
+    <<Interface>>
+      
+      +getName() String
+      +setName(n : Sting) void
+      +play()
+    }
+
+    class Spider{
+      +Spider()
+    }
+
+    class Cat{
+    -name : String
+
+    +Cat()
+    +Cat(n : String)
+    +getName() String
+    +setName(n:) String
+    +play() void
+    }
+
+    class Fish{
+    -name : String
+
+    +Fish()
+    +getName() String
+    +setName(n : String) void
+    +play() void
+    }
