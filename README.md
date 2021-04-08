@@ -67,3 +67,7 @@
     + Book(double, String, String, int)
 
     }
+    
+    <p align ="center">
+ <image src="Pics/Animal.png"></image>
+ </p>
