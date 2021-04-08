@@ -17,8 +17,7 @@
     
     class ReadingItem{
     <<Abstract>>
-    - 
-    title : String
+    - title : String
     - price : double
 
     #ReadingItem(double, String)
