@@ -1,6 +1,9 @@
 # Diagrama De Clases 
 
-
+<p align ="center">
+ <image src="Pics/lectura.png"></image>
+ </p>
+<p></p>
 
 
 <p align ="center">
