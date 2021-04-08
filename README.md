@@ -5,6 +5,8 @@
  </p>
 <p></p>
 
+He omitido todos los constructores por defecto, y en el método de ReadingItem el getName, he sustitido void por String, porque no tiene sentido
+que un metodo de devolver un nombre no devuelva nada.
 
 <p align ="center">
  <image src="Pics/ReadingItem.png"></image>
@@ -69,7 +71,10 @@
     + Book(double, String, String, int)
 
     }
-    
+  <p align ="center">
+ <image src="Pics/Pet.jpg"></image>
+ </p>
+  
     <p align ="center">
  <image src="Pics/Animal.png"></image>
  </p>
