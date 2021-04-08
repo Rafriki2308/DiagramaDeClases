@@ -72,7 +72,7 @@
  <image src="Pics/Animal.png"></image>
  </p>
 
-Animal <|-- Spider : extends
+    Animal <|-- Spider : extends
     Animal <|-- Cat : extends
     Animal <|-- Fish : extends
     Pet <|..Cat : implements
