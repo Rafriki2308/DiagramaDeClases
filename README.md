@@ -1,4 +1,12 @@
 # DiagramaDeClases 
+
+
+
+
+<p align ="center">
+ <image src="Pics/ReadingItem.png"></image>
+ </p>
+
     ReadingItem <|-- Encyclopedia : extends
     ReadingItem <|-- Magazine : extends
     ReadingItem <|-- Book : extends
